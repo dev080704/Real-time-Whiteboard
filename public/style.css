@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+canvas {
+  border: 2px solid #333;
+  background: white;
+  cursor: crosshair;
+  margin-top: 10px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
